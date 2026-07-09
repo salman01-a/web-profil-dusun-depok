@@ -1,7 +1,9 @@
+import GulaAren from '../assets/Produk/gula_aren.jpeg'
+
 const PRODUCTS = [
-  { name: 'Kopi Robusta', desc: 'Kopi robusta pilihan dari lereng Gunung Sumbing, diolah secara tradisional dengan cita rasa khas Temanggung.', category: 'Pangan', imgLabel: 'Foto Kopi Robusta' },
-  { name: 'Tembakau Srinthil', desc: 'Tembakau kualitas premium yang menjadi kebanggaan petani Temanggung, dikenal hingga mancanegara.', category: 'Perkebunan', imgLabel: 'Foto Tembakau' },
-  { name: 'Gula Aren', desc: 'Gula aren organik yang diproduksi dari pohon aren di sekitar dusun, manis alami tanpa bahan kimia.', category: 'Pangan', imgLabel: 'Foto Gula Aren' },
+  // { name: 'Kopi Robusta', desc: 'Kopi robusta pilihan dari lereng Gunung Sumbing, diolah secara tradisional dengan cita rasa khas Temanggung.', category: 'Pangan', imgLabel: 'Foto Kopi Robusta' },
+  // { name: 'Tembakau Srinthil', desc: 'Tembakau kualitas premium yang menjadi kebanggaan petani Temanggung, dikenal hingga mancanegara.', category: 'Perkebunan', imgLabel: 'Foto Tembakau' },
+  { name: 'Gula Aren', desc: 'Gula aren organik yang diproduksi dari pohon aren di sekitar dusun, manis alami tanpa bahan kimia.', category: 'Pangan', imgLabel: <img src={GulaAren} alt="Gula Aren" /> },
 ]
 
 export default function Produk() {

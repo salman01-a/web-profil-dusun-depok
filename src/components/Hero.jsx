@@ -1,6 +1,9 @@
+import imgViewDepok from "../assets/background.jpg";
+
 export default function Hero() {
   return (
-    <section id="beranda" className="hero">
+    <section id="beranda" className="hero" style={{ backgroundImage: `url(${imgViewDepok})` }
+    }>
       <div className="hero-content">
         <p className="label-caps">Desa Tlogowungu, Kec. Kaloran, Temanggung</p>
         <h1 className="display-lg">Selamat Datang di Dusun Depok</h1>

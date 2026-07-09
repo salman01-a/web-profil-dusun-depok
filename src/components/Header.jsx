@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/logo.png'
 
 const NAV_LINKS = [
   { label: 'Beranda', href: '#beranda' },
@@ -6,7 +7,7 @@ const NAV_LINKS = [
   { label: 'Produk', href: '#produk' },
   { label: 'Wisata', href: '#wisata' },
   { label: 'Kegiatan', href: '#kegiatan' },
-  { label: 'Kontak', href: '#kontak' },
+  { label: 'Lokasi', href: '#kontak' },
 ]
 
 export default function Header() {
@@ -27,7 +28,10 @@ export default function Header() {
     <>
       <header className="header">
         <div className="nav-container">
-          <a href="#beranda" className="nav-brand">Dusun Depok</a>
+          <a href="#beranda" className="nav-brand">
+            <img src={logo} alt="Logo Dusun Depok" className="nav-logo" />
+            <span className="nav-brand-text">Dusun Depok</span>
+          </a>
 
           <nav className="nav-links">
             {NAV_LINKS.map(link => (

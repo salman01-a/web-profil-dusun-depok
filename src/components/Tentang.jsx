@@ -1,9 +1,13 @@
+import viewDepok from "../assets/view_depok.webp";
+
 export default function Tentang() {
   return (
     <section id="tentang" className="section">
       <div className="container">
         <div className="about-grid">
-          <div className="about-img">Foto Dusun Depok</div>
+          <div className="about-img">
+            <img src={viewDepok} alt="Foto Dusun Depok"/>
+          </div>
           <div className="about-text">
             <p className="label-caps">Tentang Kami</p>
             <h2 className="headline-md">Sejarah &amp; Identitas Dusun Depok</h2>
