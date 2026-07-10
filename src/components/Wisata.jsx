@@ -1,5 +1,5 @@
 import koncer from '../assets/Budaya/koncer.jpg'
-import nyadran from '../assets/Budaya/nyadran.jpg'
+import nyadran from '../assets/Budaya/Nyadran.jpg'
 
 const WISATA = [  
   // { name: 'Kebun Kopi Lereng Sumbing', type: 'Wisata Alam', desc: 'Menyusuri perkebunan kopi di lereng Gunung Sumbing dengan pemandangan pegunungan yang memukau dan udara sejuk khas dataran tinggi.', tags: ['Wisata Alam', 'Agrowisata'], img: "Kebun Kopi" },
