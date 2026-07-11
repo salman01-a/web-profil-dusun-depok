@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { label: 'Produk', href: '#produk' },
   { label: 'Wisata', href: '#wisata' },
   { label: 'Kegiatan', href: '#kegiatan' },
+  { label: 'Kelompok', href: '#kelompok' },
   { label: 'Lokasi', href: '#kontak' },
 ]
 

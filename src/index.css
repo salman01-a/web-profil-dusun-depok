@@ -281,6 +281,13 @@ ul { list-style: none; }
   font-size: 14px;
 }
 
+.card-img img,
+.wisata-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .card-body {
   padding: var(--gutter);
 }
@@ -596,6 +603,110 @@ textarea.input {
   margin-bottom: var(--stack-lg);
 }
 
+/* ── Demografi ── */
+.demografi {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid var(--outline-variant);
+}
+
+.demografi .label-caps {
+  color: var(--secondary);
+  margin-bottom: var(--stack-sm);
+}
+
+.demografi .headline-sm {
+  margin-bottom: var(--stack-md);
+}
+
+.demografi .body-md {
+  color: var(--on-surface-variant);
+  margin-bottom: var(--stack-lg);
+  max-width: 600px;
+}
+
+.bar-agama {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  border-radius: var(--rounded-full);
+  overflow: hidden;
+  background: var(--surface-container-high);
+  margin-bottom: var(--stack-lg);
+}
+
+.bar-agama-seg {
+  display: block;
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.legend-agama {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--stack-lg);
+}
+
+.legend-agama-item {
+  display: flex;
+  align-items: center;
+  gap: var(--stack-sm);
+  font-size: 15px;
+  color: var(--on-surface-variant);
+}
+
+.legend-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--rounded-full);
+  flex-shrink: 0;
+}
+
+.donut-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--stack-lg);
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .donut-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.donut {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto var(--stack-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donut-hole {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donut-value {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--on-surface);
+}
+
+.donut-label {
+  font-weight: 700;
+  color: var(--on-surface);
+}
+
 /* ── Product Grid ── */
 .section-header {
   text-align: center;
@@ -675,6 +786,7 @@ textarea.input {
   justify-content: center;
   color: var(--on-primary-container);
   font-size: 14px;
+  overflow: hidden;
 }
 
 .wisata-text .label-caps {

@@ -1,3 +1,9 @@
+const AGAMA = [
+  { nama: 'Islam', persen: 49, warna: 'var(--secondary)' },
+  { nama: 'Buddha', persen: 49, warna: 'var(--accent-orange)' },
+  { nama: 'Kristen', persen: 2, warna: 'var(--primary-container)' },
+]
+
 export default function Kontak() {
   return (
     <section id="kontak" className="section">
@@ -21,6 +27,29 @@ export default function Kontak() {
         </div>
         <div style={{ textAlign: 'center', marginTop: '24px' }}>
           <a href="https://maps.app.goo.gl/RbbvJHYE7Q6Dudhu8" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Buka di Google Maps</a>
+        </div>
+
+        <div className="demografi">
+          <p className="label-caps">Demografi</p>
+          <h3 className="headline-sm">Keberagaman Agama</h3>
+          <p className="body-md">
+            Masyarakat Dusun Depok hidup rukun berdampingan dalam keberagaman keyakinan.
+          </p>
+          <div className="donut-grid">
+            {AGAMA.map(a => (
+              <div className="donut-item" key={a.nama}>
+                <div
+                  className="donut"
+                  style={{ background: `conic-gradient(${a.warna} ${a.persen * 3.6}deg, var(--surface-container-high) 0)` }}
+                >
+                  <div className="donut-hole">
+                    <span className="donut-value">{a.persen}%</span>
+                  </div>
+                </div>
+                <p className="donut-label">{a.nama}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
