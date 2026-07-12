@@ -1,5 +1,6 @@
 import Hero from './Hero'
 import Tentang from './Tentang'
+import Sekolah from './Sekolah'
 import Produk from './Produk'
 import Wisata from './Wisata'
 import Kegiatan from './Kegiatan'
@@ -11,6 +12,7 @@ export default function Body() {
     <main>
       <Hero />
       <Tentang />
+      <Sekolah />
       <Produk />
       <Wisata />
       <Kegiatan />

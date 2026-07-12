@@ -603,6 +603,17 @@ textarea.input {
   margin-bottom: var(--stack-lg);
 }
 
+/* ── Sekolah Section ── */
+@media (min-width: 768px) {
+  .sekolah-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sekolah-grid .about-text {
+    order: -1;
+  }
+}
+
 /* ── Demografi ── */
 .demografi {
   margin-top: 64px;

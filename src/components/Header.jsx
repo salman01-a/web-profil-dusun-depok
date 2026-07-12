@@ -4,6 +4,7 @@ import logo from '../assets/logo.png'
 const NAV_LINKS = [
   { label: 'Beranda', href: '#beranda' },
   { label: 'Tentang', href: '#tentang' },
+  { label: 'Sekolah', href: '#sekolah' },
   { label: 'Produk', href: '#produk' },
   { label: 'Wisata', href: '#wisata' },
   { label: 'Kegiatan', href: '#kegiatan' },
