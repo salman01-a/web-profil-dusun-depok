@@ -42,7 +42,7 @@ export default function Kontak() {
             <img src={petaMataAir} alt="Peta Mata Air dan Pemukiman Dusun Depok" loading="lazy" />
           </div>
           <div className="survey-ringkasan">
-            <h4 className="headline-sm">Hasil Survei Mata Air</h4>
+            <h4 className="headline-sm">Hasil Survei Kualitas Mata Air</h4>
             <p className="body-md">
               Berdasarkan survei yang dilakukan oleh Program Studi Teknik Geologi
               UPN Veteran Yogyakarta, terdapat dua titik mata air di Dusun Depok
