@@ -11,9 +11,7 @@ const FOOTER_NAV = [
     { label: 'Peta Lokasi', href: '#' },
   ]},
   { title: 'Tautan', links: [
-    { label: 'Pemkab Temanggung', href: '#' },
-    { label: 'Kec. Kaloran', href: '#' },
-    { label: 'Desa Tlogowungu', href: '#' },
+    { label: 'Instagram', href: 'https://www.instagram.com/dusun_depok?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', icon: 'instagram-icon' },
   ]},
 ]
 
@@ -33,14 +31,21 @@ export default function Footer() {
             <div className="footer-col" key={col.title}>
               <h4>{col.title}</h4>
               {col.links.map(link => (
-                <a key={link.label} href={link.href}>{link.label}</a>
+                <a key={link.label} href={link.href} target={link.href.startsWith('http') ? '_blank' : undefined} rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}>
+                  {link.icon && (
+                    <svg className="footer-icon" width="18" height="18" aria-hidden="true">
+                      <use href={`/icons.svg#${link.icon}`} />
+                    </svg>
+                  )}
+                  {link.label}  
+                </a>
               ))}
             </div>
           ))}
         </div>
         <div className="footer-bottom">
           <p>&copy; 2026 Dusun Depok. Hak cipta dilindungi.</p>
-          <p>Dibuat dengan dedikasi oleh Tim KKN</p>
+          <p>Dibuat dengan dedikasi oleh Tim KKN.84.379</p>
         </div>
       </div>
     </footer>

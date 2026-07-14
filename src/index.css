@@ -125,6 +125,9 @@ ul { list-style: none; }
   line-height: 1.2;
 }
 
+p{
+  text-align: justify;
+}
 .headline-md {
   font-family: var(--font-display);
   font-size: 32px;
@@ -1029,7 +1032,9 @@ textarea.input {
 }
 
 .footer-col a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   padding: 4px 0;
   font-size: 14px;
   color: var(--outline);
@@ -1038,6 +1043,10 @@ textarea.input {
 
 .footer-col a:hover {
   color: var(--inverse-on-surface);
+}
+
+.footer-icon {
+  flex-shrink: 0;
 }
 
 .footer-bottom {
