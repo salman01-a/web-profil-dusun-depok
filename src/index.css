@@ -870,6 +870,89 @@ textarea.input {
   margin-top: 4px;
 }
 
+/* ── Peta ── */
+.peta-img {
+  border-radius: var(--rounded-lg);
+  overflow: hidden;
+}
+
+.peta-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Survey Ringkasan ── */
+.survey-ringkasan {
+  margin-top: var(--stack-lg);
+}
+
+.survey-ringkasan .headline-sm {
+  margin-bottom: var(--stack-md);
+}
+
+.survey-ringkasan .body-md {
+  color: var(--on-surface-variant);
+  margin-bottom: var(--stack-lg);
+}
+
+.survey-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gutter);
+  margin-bottom: var(--stack-lg);
+}
+
+@media (max-width: 480px) {
+  .survey-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.survey-card {
+  background: var(--surface-container-low);
+  border-radius: var(--rounded-lg);
+  padding: var(--gutter);
+}
+
+.survey-card h5 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: var(--stack-md);
+  color: var(--on-surface);
+}
+
+.survey-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.survey-table td {
+  padding: 6px 0;
+  font-size: 15px;
+  border-bottom: 1px solid var(--outline-variant);
+}
+
+.survey-table td:first-child {
+  color: var(--on-surface-variant);
+  font-weight: 700;
+  width: 40%;
+}
+
+.survey-table td:last-child {
+  color: var(--on-surface);
+  text-align: right;
+}
+
+.survey-table tr:last-child td {
+  border-bottom: none;
+}
+
+.survey-note {
+  font-style: italic;
+}
+
 /* ── News/Berita ── */
 .news-grid {
   display: grid;

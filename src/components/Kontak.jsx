@@ -1,3 +1,5 @@
+import petaMataAir from '../assets/depok tlogowungu.png'
+
 const AGAMA = [
   { nama: 'Islam', persen: 49, warna: 'var(--secondary)' },
   { nama: 'Buddha', persen: 49, warna: 'var(--accent-orange)' },
@@ -27,6 +29,63 @@ export default function Kontak() {
         </div>
         <div style={{ textAlign: 'center', marginTop: '24px' }}>
           <a href="https://maps.app.goo.gl/RbbvJHYE7Q6Dudhu8" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Buka di Google Maps</a>
+        </div>
+
+        <div className="demografi">
+          <p className="label-caps">Geografi</p>
+          <h3 className="headline-sm">Peta Mata Air &amp; Pemukiman</h3>
+          <p className="body-md">
+            Pemetaan lokasi mata air dan area pemukiman Dusun Depok hasil survei
+            Program Studi Teknik Geologi UPN Veteran Yogyakarta.
+          </p>
+          <div className="peta-img">
+            <img src={petaMataAir} alt="Peta Mata Air dan Pemukiman Dusun Depok" loading="lazy" />
+          </div>
+          <div className="survey-ringkasan">
+            <h4 className="headline-sm">Hasil Survei Mata Air</h4>
+            <p className="body-md">
+              Berdasarkan survei yang dilakukan oleh Program Studi Teknik Geologi
+              UPN Veteran Yogyakarta, terdapat dua titik mata air di Dusun Depok
+              dengan kualitas air yang baik dan layak konsumsi.
+            </p>
+            <div className="survey-grid">
+              <div className="survey-card">
+                <h5>Mata Air 1</h5>
+                <table className="survey-table">
+                  <tbody>
+                    <tr><td>pH</td><td>7,15</td></tr>
+                    <tr><td>EC</td><td>436 μS/cm</td></tr>
+                    <tr><td>Suhu</td><td>25,8°C</td></tr>
+                    <tr><td>TDS</td><td>218 ppm</td></tr>
+                    <tr><td>Salinitas</td><td>0,02%</td></tr>
+                    <tr><td>Debit</td><td>1,6 L/s</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div className="survey-card">
+                <h5>Mata Air 2</h5>
+                <table className="survey-table">
+                  <tbody>
+                    <tr><td>pH</td><td>7,30</td></tr>
+                    <tr><td>EC</td><td>436 μS/cm</td></tr>
+                    <tr><td>Suhu</td><td>24°C</td></tr>
+                    <tr><td>TDS</td><td>201 ppm</td></tr>
+                    <tr><td>Salinitas</td><td>0,02%</td></tr>
+                    <tr><td>Debit</td><td>3,8 L/s</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <p className="body-md survey-note">
+              Berdasarkan Peraturan Menteri Kesehatan No. 492/MENKES/PER/IV/2010
+              tentang Persyaratan Kualitas Air Minum, kedua mata air memenuhi
+              standar baku mutu: pH dalam rentang 6,5–8,5 (Mata Air 1: 7,15; Mata Air 2: 7,30),
+              TDS jauh di bawah ambang batas maksimum 500 mg/L (218 dan 201 ppm),
+              serta suhu sesuai standar ±3°C dari suhu udara sekitar.
+              Kedua sumber air dinyatakan layak sebagai air bersih bagi kebutuhan
+              sehari-hari warga Dusun Depok.
+            </p>
+          </div>
         </div>
 
         <div className="demografi">
