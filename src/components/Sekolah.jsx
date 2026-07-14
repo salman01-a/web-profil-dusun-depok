@@ -9,15 +9,16 @@ export default function Sekolah() {
             <p className="label-caps">Pendidikan</p>
             <h2 className="headline-md">Paud Kusuma Indonesia</h2>
             <p className="body-md">
-              PAUD Kusuma Indonesia merupakan lembaga pendidikan anak usia dini yang berada
-              di Dusun Depok. Sekolah ini menjadi wadah bagi anak-anak dusun untuk
-              mendapatkan pendidikan dasar sejak dini dalam suasana yang menyenangkan
-              dan penuh kasih sayang.
+              PAUD Kusuma Indonesia merupakan lembaga pendidikan anak usia dini di bawah
+              Yayasan Kusuma Indonesia. Cabang yang berlokasi di Dusun Depok ini dikenal
+              sebagai salah satu cabang paling berkembang dari yayasan tersebut, baik dari segi
+              jumlah peserta didik maupun kualitas pembelajaran.
             </p>
             <p className="body-md">
-              Dengan tenaga pengajar yang berdedikasi, PAUD Kusuma Indonesia berkomitmen
-              membentuk generasi penerus yang cerdas, kreatif, dan berkarakter, sekaligus
-              menanamkan nilai-nilai kearifan lokal kepada anak-anak sejak usia dini.
+              Dengan tenaga pengajar yang berdedikasi dan lingkungan belajar yang mendukung,
+              PAUD Kusuma Indonesia cabang Dusun Depok berkomitmen membentuk generasi penerus
+              yang cerdas, kreatif, dan berkarakter — sekaligus menanamkan nilai-nilai kearifan
+              lokal kepada anak-anak sejak usia dini.
             </p>
           </div>
           <div className="about-img">

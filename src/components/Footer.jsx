@@ -7,7 +7,6 @@ const FOOTER_NAV = [
   ]},
   { title: 'Informasi', links: [
     { label: 'Kegiatan', href: '#kegiatan' },
-    { label: 'Kontak', href: '#kontak' },
     { label: 'Peta Lokasi', href: '#' },
   ]},
   { title: 'Tautan', links: [
