@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.webp'
 
 const NAV_LINKS = [
   { label: 'Beranda', href: '#beranda' },

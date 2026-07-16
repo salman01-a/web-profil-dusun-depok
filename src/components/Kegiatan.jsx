@@ -1,7 +1,7 @@
-import SekolahMinggu from '../assets/Rutinitas/sklh_minggu.JPG'
-import Selapanan from '../assets/Rutinitas/Selapanan.JPG'
-import LatihanKoncer from '../assets/Rutinitas/koncer.jpg'
-import KerjaBakti from '../assets/Rutinitas/KerjaBakti.JPG'
+import SekolahMinggu from '../assets/Rutinitas/sklh_minggu.webp'
+import Selapanan from '../assets/Rutinitas/Selapanan.webp'
+import LatihanKoncer from '../assets/Rutinitas/koncer.webp'
+import KerjaBakti from '../assets/Rutinitas/KerjaBakti.webp'
 
 const KEGIATAN = [
   { title: 'Kerja Bakti Dusun', jadwal: 'Setiap Jumat', category: 'Sosial', desc: 'Gotong royong membersihkan lingkungan dusun, perbaikan jalan, dan perawatan fasilitas umum bersama seluruh warga.', imgLabel: <img src={KerjaBakti} alt="Kerja Bakti" /> },

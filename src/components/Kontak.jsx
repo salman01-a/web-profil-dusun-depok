@@ -1,4 +1,4 @@
-import petaMataAir from '../assets/depok tlogowungu.png'
+import petaMataAir from '../assets/depok tlogowungu.webp'
 
 const AGAMA = [
   { nama: 'Islam', persen: 49, warna: 'var(--secondary)' },
@@ -44,7 +44,7 @@ export default function Kontak() {
           <div className="survey-ringkasan">
             <h4 className="headline-sm">Hasil Survei Kualitas Mata Air</h4>
             <p className="body-md">
-              Berdasarkan survei yang dilakukan oleh Program Studi Teknik Geologi
+              Berdasarkan survei yang dilakukan oleh MahasiswaProgram Studi Teknik Geologi
               UPN Veteran Yogyakarta, terdapat dua titik mata air di Dusun Depok
               dengan kualitas air yang baik dan layak konsumsi.
             </p>
@@ -54,7 +54,7 @@ export default function Kontak() {
                 <table className="survey-table">
                   <tbody>
                     <tr><td>pH</td><td>7,15</td></tr>
-                    <tr><td>EC</td><td>436 μS/cm</td></tr>
+                    <tr><td>DHL</td><td>436 μS/cm</td></tr>
                     <tr><td>Suhu</td><td>25,8°C</td></tr>
                     <tr><td>TDS</td><td>218 ppm</td></tr>
                     <tr><td>Salinitas</td><td>0,02%</td></tr>
@@ -67,7 +67,7 @@ export default function Kontak() {
                 <table className="survey-table">
                   <tbody>
                     <tr><td>pH</td><td>7,30</td></tr>
-                    <tr><td>EC</td><td>436 μS/cm</td></tr>
+                    <tr><td>DHL</td><td>436 μS/cm</td></tr>
                     <tr><td>Suhu</td><td>24°C</td></tr>
                     <tr><td>TDS</td><td>201 ppm</td></tr>
                     <tr><td>Salinitas</td><td>0,02%</td></tr>

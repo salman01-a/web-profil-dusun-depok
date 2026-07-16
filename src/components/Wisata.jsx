@@ -1,11 +1,11 @@
-import koncer from '../assets/Budaya/koncer.jpg'
-import nyadran from '../assets/Budaya/Nyadran.jpg'
-import warok from '../assets/Budaya/warok.jpeg'
-import panorama from '../assets/Budaya/sawah.jpeg'
-import wayang from '../assets/Budaya/wayang.jpg'
-import kali from '../assets/Budaya/sadranan-kali.png'
-import makam from '../assets/Budaya/sadranan-makam.png'
-import wangan from '../assets/Budaya/sadranan-wangan.png'
+import koncer from '../assets/Budaya/koncer.webp'
+import nyadran from '../assets/Budaya/Nyadran.webp'
+import warok from '../assets/Budaya/warok.webp'
+import panorama from '../assets/Budaya/sawah.webp'
+import wayang from '../assets/Budaya/wayang.webp'
+import kali from '../assets/Budaya/sadranan-kali.webp'
+import makam from '../assets/Budaya/sadranan-makam.webp'
+import wangan from '../assets/Budaya/sadranan-wangan.webp'
 const WISATA = [
   { name: 'Panorama Sawah', type: 'Wisata Alam', desc: 'Pemandangan sawah yang indah terlihat langsung dari dusun, menjadi spot favorit untuk menikmati sunrise dan fotografi.', tags: ['Wisata Alam', 'Fotografi'], img: panorama },
   // { name: 'Kebun Kopi Lereng Sumbing', type: 'Wisata Alam', desc: 'Menyusuri perkebunan kopi di lereng Gunung Sumbing dengan pemandangan pegunungan yang memukau dan udara sejuk khas dataran tinggi.', tags: ['Wisata Alam', 'Agrowisata'], img: "Kebun Kopi" },

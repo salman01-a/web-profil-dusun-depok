@@ -1,4 +1,4 @@
-import GulaAren from '../assets/Produk/gula_aren.jpeg'
+import GulaAren from '../assets/Produk/gula_aren.webp'
 
 const PRODUCTS = [
   // { name: 'Kopi Robusta', desc: 'Kopi robusta pilihan dari lereng Gunung Sumbing, diolah secara tradisional dengan cita rasa khas Temanggung.', category: 'Pangan', imgLabel: 'Foto Kopi Robusta' },

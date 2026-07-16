@@ -1,4 +1,4 @@
-import karangtaruna from '../assets/Kelompok/karangtaruna.jpeg'
+import karangtaruna from '../assets/Kelompok/karangtaruna.webp'
 
 const KELOMPOK = [
   { nama: 'Karang Taruna', peran: 'Kepemudaan', desc: 'Organisasi pemuda dusun yang menggerakkan kegiatan sosial, kesenian, dan pengembangan komunitas warga.', img: karangtaruna },

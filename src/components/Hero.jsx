@@ -1,4 +1,4 @@
-import imgViewDepok from "../assets/background.jpg";
+import imgViewDepok from "../assets/background.webp";
 
 export default function Hero() {
   return (
