@@ -1,5 +1,5 @@
 import petaMataAir from '../assets/depok tlogowungu.webp'
-import petaAdministrasi from '../assets/mapadms.webp'
+import petaAdministrasi from '../assets/petaadministrasi.webp'
 
 const AGAMA = [
   { nama: 'Islam', persen: 49, warna: 'var(--secondary)' },
