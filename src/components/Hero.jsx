@@ -5,9 +5,9 @@ export default function Hero() {
     <section id="beranda" className="hero" style={{ backgroundImage: `url(${imgViewDepok})` }
     }>
       <div className="hero-content">
-        <p className="label-caps">Desa Tlogowungu, Kec. Kaloran, Temanggung</p>
+        <p className="label-caps" style={{ textAlign: 'center' }} >Desa Tlogowungu, Kec. Kaloran, Temanggung</p>
         <h1 className="display-lg">Selamat Datang di Dusun Depok</h1>
-        <p className="body-lg">
+        <p className="body-lg" style={{ textAlign: 'center' }} >
            Menyatu dengan alam perbukitan Kaloran, tumbuh bersama tradisi.
   Temukan pesona sawah terasering, udara sejuk pegunungan, dan
   kehangatan masyarakat Dusun Depok.
