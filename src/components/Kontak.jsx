@@ -1,4 +1,5 @@
 import petaMataAir from '../assets/depok tlogowungu.webp'
+import petaAdministrasi from '../assets/mapadms.webp'
 
 const AGAMA = [
   { nama: 'Islam', persen: 49, warna: 'var(--secondary)' },
@@ -85,6 +86,17 @@ export default function Kontak() {
               Kedua sumber air dinyatakan layak sebagai air bersih bagi kebutuhan
               sehari-hari warga Dusun Depok.
             </p>
+          </div>
+        </div>
+
+        <div className="demografi">
+          <p className="label-caps">Geografi</p>
+          <h3 className="headline-sm">Peta Administrasi</h3>
+          <p className="body-md">
+            Peta administrasi wilayah Dusun Depok, Desa Tlogowungu, Kecamatan Kaloran, Kabupaten Temanggung.
+          </p>
+          <div className="peta-img">
+            <img src={petaAdministrasi} alt="Peta Administrasi Dusun Depok" loading="lazy" />
           </div>
         </div>
 
